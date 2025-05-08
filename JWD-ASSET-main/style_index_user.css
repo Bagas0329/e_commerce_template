@@ -1,0 +1,103 @@
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #e2e6ea;
+  border-radius: 4px;
+  color: #000;
+}
+
+.produk-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  transition: box-shadow 0.3s;
+  background-color: #fff;
+}
+
+.produk-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form input[type="text"] {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 8px 12px;
+  margin-left: 5px;
+}
+
+.riwayat-pesanan table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.riwayat-pesanan th, .riwayat-pesanan td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.riwayat-pesanan th {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+  .produk-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.cart-count {
+  background-color: red;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-size: 12px;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+.cart-count {
+    background-color: red;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+    vertical-align: top;
+    margin-left: 5px;
+}
